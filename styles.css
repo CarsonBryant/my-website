@@ -9,6 +9,8 @@ a:hover {
 h1 {
     font-size: 150%;
     font-family: 'Times New Roman', Times, serif;
+    clear: left;
+    padding: 0.5em;
 }
 
 h2,
@@ -18,7 +20,7 @@ h3 {
 
 p {
     font-size: 120%;
-    text-decoration: underline;
+    /*text-decoration: underline;*/
 }
 
 main li {
@@ -28,6 +30,28 @@ main li {
 
 #shoulder {
     color: #a51717;
+    padding: 1em 0.5em;
+}
+
+#nav_menu ul { list-style-type: none; }
+#nav_menu ul li { float: left; }
+#nav_menu ul li a {
+    text-align: center; 
+    display: block;
+    width: 175px;
+    padding: 1em 0;
+    text-decoration: none;
+    background: linear-gradient(120deg, red 0%, white 100%);
+    color: rgba(255, 255, 255, 0.895);
+    font-weight: bold;
+    border-right: 2px solid rgba(255, 255, 255, 0.895);
+    padding: 1em;
+    border: 3px rgb(10, 10, 10) solid;
+}
+
+article #armmuscles {
+    column-count: 2;
+
 }
 
 /*ul.back {
