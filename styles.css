@@ -20,7 +20,21 @@ h3 {
 
 p {
     font-size: 120%;
+
     /*text-decoration: underline;*/
+}
+
+body {
+    width: 100%;
+}
+
+section {
+    width: 100%;
+}
+
+div.meat {
+    margin: auto;
+    width: 20%;
 }
 
 main li {
@@ -33,10 +47,17 @@ main li {
     padding: 1em 0.5em;
 }
 
-#nav_menu ul { list-style-type: none; }
-#nav_menu ul li { float: left; }
+#nav_menu ul {
+    list-style-type: none;
+    padding: 0%;
+}
+
+#nav_menu ul li {
+    float: left;
+}
+
 #nav_menu ul li a {
-    text-align: center; 
+    text-align: center;
     display: block;
     width: 175px;
     padding: 1em 0;
@@ -45,13 +66,24 @@ main li {
     color: rgba(255, 255, 255, 0.895);
     font-weight: bold;
     border-right: 2px solid rgba(255, 255, 255, 0.895);
-    padding: 1em;
     border: 3px rgb(10, 10, 10) solid;
 }
 
-article #armmuscles {
-    column-count: 2;
+#armmuscles {
 
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+
+#armmuscles p{
+    flex-basis: 40%;
+}
+
+img {
+ max-width: 1920px ;
+ width: 50%
 }
 
 /*ul.back {
@@ -60,4 +92,29 @@ article #armmuscles {
 
 ul.front {
     color: #983e06;
+}
+*/
+
+@media only screen and (max-width: 820px) {
+    #nav_menu ul li {
+        float: none;
+    }
+
+    #nav_menu ul li a {
+        width: 100%;
+    }
+
+    #armmuscles {
+        flex-direction: column;
+
+    }
+    
+}
+
+@media only screen and (max-width: 250px) {
+    div.meat {
+        margin: 0%;
+    }
+
+    
 }
