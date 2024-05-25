@@ -1,5 +1,5 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 a:hover {
@@ -8,9 +8,8 @@ a:hover {
 
 h1 {
     font-size: 150%;
-    font-family: 'Times New Roman', Times, serif;
     clear: left;
-    padding: 0.5em;
+    padding: 1em;
 }
 
 h2,
@@ -22,6 +21,10 @@ p {
     font-size: 120%;
 
     /*text-decoration: underline;*/
+}
+
+footer {
+    font-size: 70%;
 }
 
 body {
@@ -62,11 +65,11 @@ main li {
     width: 175px;
     padding: 1em 0;
     text-decoration: none;
-    background: linear-gradient(120deg, red 0%, white 100%);
-    color: rgba(255, 255, 255, 0.895);
+    /*background: linear-gradient(120deg, red 0%, white 100%);*/
+    color: rgba(5, 5, 5, 0.895);
     font-weight: bold;
-    border-right: 2px solid rgba(255, 255, 255, 0.895);
-    border: 3px rgb(10, 10, 10) solid;
+    border-right: 2px solid rgba(0, 0, 0, 0.895);
+    border-bottom: 3px rgb(10, 10, 10) solid;
 }
 
 #armmuscles {
@@ -83,7 +86,8 @@ main li {
 
 img {
  max-width: 1920px ;
- width: 50%
+ width: 50%;
+ padding: 1em;
 }
 
 /*ul.back {
