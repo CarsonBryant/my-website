@@ -1,0 +1,7 @@
+
+At the time of the due date for module nine I did not recieve any criticisms from my peers.
+However, I could tell my website was formulaic and the bredth of its contents shallow.
+I have since pivoted the aim of the website entirely to a subject that I had more expeirence with (although not quite as passionate about).
+I have done my best to incorporate a wide range of elements learned throghout the course and I have also made sure to not put the  index.html file in a folder. 
+Going back to the previous aim of the site, the most glaring issue was the dearth of content and the fact that said content was just a bunch of unordered lists with arbitrary <div> elements.
+This is something I believe I have ammended with the new site.

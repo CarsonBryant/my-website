@@ -1,0 +1,10 @@
+h1 {
+    text-align: center;
+    text-decoration: underline 1.5px;
+}
+
+p {
+    text-align: center;
+    font-size: 150%;
+    padding: 1.5em;
+}

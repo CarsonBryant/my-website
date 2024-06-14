@@ -1,21 +1,23 @@
+/* nav menu */
 #nav_menu ul {
     list-style-type: none;
 }
 
 #nav_menu ul li {
     float: left;
+    width: 100%;
 }
 
 #nav_menu ul li a {
     text-align: center;
     display: block;
-    width: 180px;
-    padding: 2em ;
+    padding: 1em;
     text-decoration: none;
     background-color: rgb(136, 6, 6);
     color: rgb(243, 238, 219);
     font-weight: bold;
-    border-right: 2px solid rgb(243, 238, 219);
+    font-size: 130%;
+    border-bottom: 2px solid rgb(243, 238, 219);
 }
 
 #nav_menu ul li a.last {
@@ -30,12 +32,20 @@
     color: rgb(216, 125, 6);
 }
 
-
-* {
-    font-family: 'Times New Roman', Times, serif;
-    background-color: rgb(243, 238, 219);
+h1 {
+    font-family: "Unica One", sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
 
+/* font, background */
+* {
+    font-family: 'Times New Roman', Times, serif; 
+    background-color: rgb(243, 238, 219);
+    
+}
+
+/* links */
 a:link {
     color: rgb(139, 8, 8);
 }

@@ -1,9 +1,10 @@
 h1 { 
     text-align: center;
-    padding: 2em;
+    padding: 3em;
     
 }
 
+/* link grid */
 main {
     display: grid;
     grid-template-columns: (3, 1fr);
@@ -39,8 +40,9 @@ main {
     grid-area: wta;
 }
 
+/* a includes fontawesome icons */
 i+a  {
-    font-size: 135%;
+     font-size: 135%; 
 }
 
 

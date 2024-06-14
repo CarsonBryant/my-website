@@ -8,9 +8,10 @@ img {
 
 }
 
+/* headers */
 h1 {
-    padding-top: 1em;
-    padding-bottom: 2em;
+    padding-top: 3em;
+    
 }
 
 h2 {
@@ -19,6 +20,7 @@ h2 {
     border-bottom: 2px solid rgb(136, 6, 6);
 }
 
+/* content */
 p {
     font-size: 120%;
 }
@@ -38,3 +40,4 @@ footer {
     padding-top: 2em;
     font-size: 125%;
 }
+
