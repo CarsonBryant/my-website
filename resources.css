@@ -1,0 +1,46 @@
+h1 { 
+    text-align: center;
+    padding: 2em;
+    
+}
+
+main {
+    display: grid;
+    grid-template-columns: (3, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 60px;
+    grid-template-areas:
+        "nws wdw wnr"
+        "wnp map wta";
+
+}
+
+#nws {
+    grid-area: nws;
+}
+
+#wdw {
+    grid-area: wdw;
+}
+
+#wnr {
+    grid-area: wnr;
+}
+
+#wnp {
+    grid-area: wnp;
+}
+
+#map {
+    grid-area: map;
+}
+
+#wta {
+    grid-area: wta;
+}
+
+i+a  {
+    font-size: 135%;
+}
+
+

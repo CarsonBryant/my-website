@@ -1,0 +1,6 @@
+article {
+    column-count: 2;
+    column-gap: 10%;
+    column-rule: 2px dotted rgb(136, 6, 6);
+}
+
