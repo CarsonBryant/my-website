@@ -1,8 +1,12 @@
-article {
-    column-count: 2;
-    column-gap: 10%;
-    column-rule: 2px dotted rgb(136, 6, 6);
-    text-align: left;
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 130%;
+}
+
+p {
+    font-size: 120%;
 }
 
 h1 {
@@ -16,6 +20,12 @@ h2 {
 
 footer {
     padding-top: 4em;
-    
+    font-size: 110%;
+
 }
 
+@media only screen and (max-width: 650px) {
+    main {
+        flex-direction: column;
+    }
+} 
